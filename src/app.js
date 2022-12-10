@@ -1,3 +1,6 @@
+const swaggerUi = require('swagger-ui-express');
+const swaggerFile = require('../swagger/swagger_output.json');
+
 require("dotenv-safe").config();
 const express = require("express"); 
 const cors = require("cors");
@@ -11,6 +14,6 @@ app.use(cors())
 mongoose.connect()
 
 app.use("/conectararos/users", routes);
+app.use('/minha-rota-de-documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
-// exportando para usar o server.js
 module.exports = app;

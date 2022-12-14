@@ -19,6 +19,20 @@ const getUserById = async (req, res) => {
   }
 };
 
+const getUserIllness = async (req, res) => {
+  try {
+   
+    const findIllness = await UserModel.find({illness: req.query.illness});
+    if (!findIllness) {
+      return res
+      .status(400).json({ message:"Doença não localizada"});
+    }
+    res.status(200).json(findIllness);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
 const addNewUser = async (req, res) => {
   try {
     const {
@@ -90,6 +104,7 @@ const deleteUser = async (req, res) => {
 module.exports = {
   getAllUsers,
   getUserById,
+  getUserIllness,
   addNewUser,
   updateUserById,
   deleteUser,

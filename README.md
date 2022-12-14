@@ -1,4 +1,4 @@
-##Introdução
+## Introdução
 
 Projeto final da turma de back-end da Reprograma. Esta aplicação é destinada a pessoas, famílias e amigos que são portadores de doenças raras ou que convivem com portadores a se conectarem. 
 É considerado doença rara aquela que afeta até 65 pessoas em cada 100 mil indivíduos.

@@ -8,6 +8,7 @@ const router = express.Router();
 
 
 router.get("/all", controller.getAllUsers);
+router.get("/:illness", controller.getUserIllness);
 router.get("/:id", controller.getUserById);
 router.post("/new", controller.addNewUser);
 router.patch("/:id", controller.updateUserById);

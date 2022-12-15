@@ -51,7 +51,8 @@ Através da solicitação é possível:
 
 ## :triangular_flag_on_post: Tecnologias e Dependências usadas
 > :file_folder:	javascript :file_folder:node.js	:file_folder:express	
-:file_folder:mongoose:file_folder:nodemon:file_folder:npm:file_folder:MongoDb :file_folder:Mongo Atlas:file_folder:Postman:file_folder:dotenv:file_folder:swagger
+:file_folder:mongoose:file_folder:nodemon:file_folder:npm
+:file_folder:MongoDb :file_folder:Mongo Atlas:file_folder:Postman:file_folder:dotenv:file_folder:swagger
 :file_folder:render
 
 ## :triangular_flag_on_post: Informações sobre a Documentação

@@ -1,13 +1,13 @@
 # API - ConectaRaros
 
 
-## Introdução
+## :triangular_flag_on_post: Introdução
 
 Projeto final da turma de back-end da Reprograma. Esta aplicação é destinada a pessoas, famílias e amigos que são portadores de doenças raras ou que convivem com portadores a se conectarem. 
 É considerado doença rara aquela que afeta até 65 pessoas em cada 100 mil indivíduos.
-Por ser considerada uma doença que afeta uma pequena porcentagem da população, o "ConectaRaros" tem o intuito de conectar pessoas com as mesma doença para que possam trocar experiências, encontrarem apoio e suporte umas com as outras. 
+Por ser considerada uma doença que afeta uma pequena porcentagem da população, o **"ConectaRaros"** tem o intuito de conectar pessoas com as mesma doença para que possam trocar experiências, encontrarem apoio e suporte umas com as outras. 
 
-## Função/Utilidade
+## :triangular_flag_on_post: Função/Utilidade
 
 Através da solicitação é possível: 
 
@@ -49,7 +49,13 @@ Através da solicitação é possível:
 </tr>
 </table>
 
-## Tecnologias e Dependências usadas
+## :triangular_flag_on_post: Tecnologias e Dependências usadas
 > :file_folder:	javascript :file_folder:node.js	:file_folder:express	
-:file_folder:mongoose :file_folder:nodemon :file_folder:npm 
-:file_folder:MongoDb :file_folder:Mongo Atlas :file_folder:Postman
+:file_folder:mongoose:file_folder:nodemon:file_folder:npm:file_folder:MongoDb :file_folder:Mongo Atlas:file_folder:Postman:file_folder:dotenv:file_folder:swagger
+:file_folder:render
+
+## :triangular_flag_on_post: Informações sobre a Documentação
+A documentação também pode ser acessada [aqui](https://conecta-raros.onrender.com/minha-rota-de-documentacao/).
+
+## :handshake:Contato
+[:arrow_right:LinkedIn](https://www.linkedin.com/in/bpsbeatriz/ "LinkedIn")

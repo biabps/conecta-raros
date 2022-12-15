@@ -11,8 +11,8 @@ const getAllUsers = async (req, res) => {
 
 const getUserById = async (req, res) => {
   try {
-   
-    const findUser = await UserModel.findById(req.params.id);
+    const id = req.params.id
+    const findUser = await UserModel.findById(id);
     res.status(200).json(findUser);
   } catch (error) {
     res.status(500).json({ message: error.message });
